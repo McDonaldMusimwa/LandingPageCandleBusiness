@@ -1,0 +1,86 @@
+body{
+    font-family:Lato,sans-serif;
+    background-color:#eee;
+    margin:0 4rem
+  }
+  #header{
+    display:flex;
+    position:fixed;
+    min-height:75px;
+    justify-content:space-around;
+    align-items:center;
+    padding:0px 25px;
+    top:0;
+    background-color:#eee;
+    width:100%;
+    
+    border-bottom:1px solid ;
+  }
+  .logo{
+    padding:0;
+    margin:0;
+    box-sizing:border-sizing;
+  }
+  nav{
+    display:block;
+    font-weight:400;
+  }
+  nav a{
+    text-decoration:none;
+    font-family:Lato,sans-serif;
+  }
+  h2{
+    margin:1rem 2rem 0 1rem;
+  }
+  #hero{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    
+  }
+  .btn{
+    background-color:yellow;
+    border-radius:5px ;
+  }
+  .pricing{
+    display:flex;
+  
+  }
+  .combo{
+    border:1px solid black;
+    padding:2px;
+    margin:5px;
+    border-radius:2px;
+  }
+  h3{
+    background-color:grey;
+    height:20px;
+  }
+  nav a{
+    
+    color:black;
+    border-radius:4px;
+  }
+  nav a:hover{
+    color:white;
+  }
+  video{
+    align-items:center;
+    justify-items:center;
+  }
+  .container{
+    max-width:1000px;
+    width:100%;
+    margin:0 auto;
+  }
+  .submit{
+    background-color:yellow;
+  }
+  
+  @media only screen and (max-width:700px){
+    body{
+      max-width:50%;
+    }
+  }
